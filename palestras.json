@@ -1,0 +1,2223 @@
+# Palestra.objects.create(titulo = p['Nome'],
+#                         data = p['Data'],
+#                         hora_inicio = p['Horario'][:8],
+#                         hora_fim = p['Horario'][12:],
+#                         palestrantes = p['Palestrante'],
+#                         categoria = p['Categoria'],
+#                         vagas_total = p['Total de vagas'],
+#                         vagas_restantes = p['Vagas Restantes'],
+#                         local = p['Local'])
+
+
+[
+    {
+        "Nome": "Banner Digital Lewis Carroll no país dos números",
+        "Data": "2019-10-21",
+        "Horario": "08:00:00 às 09:00:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "32",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Construção de um motor de indução trifásico elementar Mostra Tecnológica",
+        "Data": "2019-10-21",
+        "Horario": "08:00:00 às 11:00:00",
+        "Palestrante": "Prof. Saulo",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "38",
+        "Local": "bloco 8 sala 2 superior"
+    },
+    {
+        "Nome": "Banner Digital: Energia Maremotriz: uma forma limpa de produção elétrica em massa",
+        "Data": "2019-10-21",
+        "Horario": "08:00:00 às 09:00:00",
+        "Palestrante": "Aluna Julia Borges",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "42",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Conhecendo sobre o Curso de engenharia mecânica do IFES",
+        "Data": "2019-10-21",
+        "Horario": "08:30:00 às 09:30:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "46",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "SINF: CONSTRUINDO APLICAÇÕES COM VUE.JS",
+        "Data": "2019-10-21",
+        "Horario": "08:40:00 às 11:30:00",
+        "Palestrante": "FERNANDO GARIOLI E GIDEÃO DE ABREU",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "16",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "SINF: ANÁLISE E VISUALIZAÇÃO DE DADOS COM PYTHON",
+        "Data": "2019-10-21",
+        "Horario": "08:45:00 às 11:30:00",
+        "Palestrante": "ARTUR BERMOND",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "24",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "Banner Digital Linguagem e representação: do mundo às palavras",
+        "Data": "2019-10-21",
+        "Horario": "09:00:00 às 10:00:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "34",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Efeito fotovoltaico: Proposta de construção de experimento de baixo custo e apresentação de algumas estratégias para o ensino",
+        "Data": "2019-10-21",
+        "Horario": "09:00:00 às 10:00:00",
+        "Palestrante": "Prof. Paulo",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "bloco 5 sala 1 sup"
+    },
+    {
+        "Nome": "Banner Digital Luiz Fuffato: corpus em Fragmentos",
+        "Data": "2019-10-21",
+        "Horario": "10:00:00 às 11:00:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "37",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Banner Digital -IS: the future is here. Na overview of business IS classes and courses",
+        "Data": "2019-10-21",
+        "Horario": "11:00:00 às 12:00:00",
+        "Palestrante": "Prof. Angela",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "44",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Mesa de Debate: Corpos no tubo: territórios das subjetividades na literatura",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 15:30:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "50",
+        "Vagas Restantes": "36",
+        "Local": "bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Palestra energia solar: Modelagem de materiais semicondutores para produção de energia limpa",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Enzo Andrare",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "40",
+        "Local": "bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Apresentação de Trabalhos incubadora Banner's",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 14:30:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "110",
+        "Vagas Restantes": "109",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "SINF: DESENVOLVIMENTO DE SITES COM BOOTSTRAP",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 15:30:00",
+        "Palestrante": "RENATO BOTACIM",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "4",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "SINF: DOMÓTICA: PRINCÍPIO DA AUTOMAÇÃO RESIDENCIAL UTILIZANDO SENSOR ULTRASSÔNICO E ARDUINO",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 15:50:00",
+        "Palestrante": "JOANA ROZAES",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "26",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "Mesa de Debate Interpol - Tráfico humano",
+        "Data": "2019-10-21",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Maria Fernanda e Professor Flávio",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Palestra A pós em ensino de ciências naturais do IFES- desafios e conquistas",
+        "Data": "2019-10-21",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Prof. Edmundo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Palestra Introdução à Engenharia de Minas",
+        "Data": "2019-10-21",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Gleicon Roberto de Souza Maior",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "CETEM"
+    },
+    {
+        "Nome": "Mesa de Debate Racismo no Brasil e o mito da democracia racial",
+        "Data": "2019-10-21",
+        "Horario": "14:30:00 às 15:00:00",
+        "Palestrante": "Paola Correa",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "SINF: FINANÇAS BÁSICA NA ERA DIGITAL",
+        "Data": "2019-10-21",
+        "Horario": "14:40:00 às 17:30:00",
+        "Palestrante": "EVERSON SCHERRER E LUCAS POUBEL",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "28",
+        "Local": "LABORATÓRIO 5"
+    },
+    {
+        "Nome": "SINF: ANDROID: PUBLICAÇÃO E MONETIZAÇÃO",
+        "Data": "2019-10-21",
+        "Horario": "14:45:00 às 17:30:00",
+        "Palestrante": "Fernando Bueno Dansi",
+        "Categoria": "Palestra",
+        "Total de vagas": "30",
+        "Vagas Restantes": "22",
+        "Local": "LABORATÓRIO 5"
+    },
+    {
+        "Nome": "Mesa Redonda com Ex-Alunos em comemoração aos 10 anos de Engenharia de Minas",
+        "Data": "2019-10-21",
+        "Horario": "14:50:00 às 14:50:00",
+        "Palestrante": "Ex-Alunos",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "CETEM"
+    },
+    {
+        "Nome": "Banner Digital Um Modelo Matemático para o Problema de Cadeia Fechada de Suprimentos",
+        "Data": "2019-10-21",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Prof. Ellen",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "46",
+        "Local": "Bloco 2 sala 1 inferior"
+    },
+    {
+        "Nome": "Palestra Biofísica: uma análise de como a vida e a natureza interagem",
+        "Data": "2019-10-21",
+        "Horario": "15:30:00 às 16:00:00",
+        "Palestrante": "Maria Julia Monteiro",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "SINF: INTRODUÇÃO A CLOUD COMPUTING (GOOGLE CLOUD)",
+        "Data": "2019-10-21",
+        "Horario": "15:50:00 às 18:20:00",
+        "Palestrante": "LUAN GRILLO",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "17",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "Abertura Semana Nacional de Tecnologia - Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável",
+        "Data": "2019-10-21",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "109",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Palestra Grafeno na Indústria, na Pesquisa e no Ensino",
+        "Data": "2019-10-21",
+        "Horario": "16:00:00 às 16:30:00",
+        "Palestrante": "Enzo Andrare",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "43",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Banner digital Energia Maremotriz: uma forma limpa de produção em massa",
+        "Data": "2019-10-21",
+        "Horario": "16:00:00 às 16:30:00",
+        "Palestrante": "Julia Borges",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Abertura Semana Nacional de Tecnologia - Bioeconomia: Diversidade e Riqueza para o Desenvolvimento Sustentável",
+        "Data": "2019-10-21",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Cerimonialista",
+        "Categoria": "Palestra",
+        "Total de vagas": "150",
+        "Vagas Restantes": "149",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Palestra Atuação do Engenheiro de Minas no processo produtivo de Rochas Ornamentais",
+        "Data": "2019-10-21",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "Marciel Pizzeta",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "CETEM"
+    },
+    {
+        "Nome": "Torneio Futsal Cursos de Graduação",
+        "Data": "2019-10-21",
+        "Horario": "17:30:00 às 18:45:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Torneio",
+        "Total de vagas": "110",
+        "Vagas Restantes": "102",
+        "Local": "Quadra"
+    },
+    {
+        "Nome": "SINF: MERCADO DE TRABALHO, O QUE FAZER APÓS FORMAR? DAY AFTER",
+        "Data": "2019-10-21",
+        "Horario": "18:00:00 às 22:00:00",
+        "Palestrante": "EROS MOURA E CONVIDADOS",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "150",
+        "Vagas Restantes": "116",
+        "Local": "PÁTIO"
+    },
+    {
+        "Nome": "Palestra Metalurgia",
+        "Data": "2019-10-21",
+        "Horario": "18:00:00 às 18:40:00",
+        "Palestrante": "Sayd Farage David",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "CETEM"
+    },
+    {
+        "Nome": "Palestra Novos cenários de ensino - aprendizagem potencializada pela tecnologia digital",
+        "Data": "2019-10-21",
+        "Horario": "18:00:00 às 18:30:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "105",
+        "Vagas Restantes": "100",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Materiais Didáticos de Inglês Instrumental para os cursos Técnico em Mineração",
+        "Data": "2019-10-21",
+        "Horario": "18:30:00 às 19:00:00",
+        "Palestrante": "Professora Cláudia",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Linguagem no no cenário de aprendizagem",
+        "Data": "2019-10-21",
+        "Horario": "18:30:00 às 19:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "104",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Minicurso Polimento de Chapas de Rocha Ornamental",
+        "Data": "2019-10-21",
+        "Horario": "18:40:00 às 21:30:00",
+        "Palestrante": "Murilo Agrizzi",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "20",
+        "Vagas Restantes": "20",
+        "Local": "Bloco 01 - sala 3 inf."
+    },
+    {
+        "Nome": "Palestra Importação e Exportação de Rochas Ornamentais",
+        "Data": "2019-10-21",
+        "Horario": "18:40:00 às 19:30:00",
+        "Palestrante": "Wanderson Pardinho",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "35",
+        "Local": "CETEM"
+    },
+    {
+        "Nome": "Materiais Didáticos de Inglês instrumental para os cursos Técnico em Mineração",
+        "Data": "2019-10-21",
+        "Horario": "18:45:00 às 19:45:00",
+        "Palestrante": "Prof. Cláudia",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 2 sala 2 superior"
+    },
+    {
+        "Nome": "Mostra Tecnológica: Dimensionamento de baterias estacionárias para Sistemas Fotovoltaicos Desconectados da Rede Elétrica (Sistemas offgrid)",
+        "Data": "2019-10-21",
+        "Horario": "18:45:00 às 19:45:00",
+        "Palestrante": "Prof. Julio",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "Bloco 2 sala 1 superior"
+    },
+    {
+        "Nome": "Oficina Análise das propriedades mecânicas dos aços AISI 4140 e AISI 4340 submetido nas mesmas condições de têmpera e revenimento",
+        "Data": "2019-10-21",
+        "Horario": "18:45:00 às 19:45:00",
+        "Palestrante": "Prof. Jeanderson",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "Bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Perfil do aluno de hoje (educação infantil. ensino fundamental, ensino médio e faculdade)",
+        "Data": "2019-10-21",
+        "Horario": "19:00:00 às 19:30:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Estágio em mineração: beneficiamento (britagem, moagem e peneiramento) de carbonatos",
+        "Data": "2019-10-21",
+        "Horario": "19:30:00 às 21:30:00",
+        "Palestrante": "??",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "36",
+        "Local": "Bloco 06 - sala 1 inf."
+    },
+    {
+        "Nome": "Palestra Hidrogeologia recarga de água subterrânea",
+        "Data": "2019-10-21",
+        "Horario": "19:30:00 às 21:30:00",
+        "Palestrante": "Prof. Lindemberg",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 06 - sala 2 inf."
+    },
+    {
+        "Nome": "Perfil do professor para uma educação disruptiva",
+        "Data": "2019-10-21",
+        "Horario": "19:30:00 às 20:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Como os alunos e professores aprendem",
+        "Data": "2019-10-21",
+        "Horario": "20:00:00 às 20:30:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Mostra Tecnológica: Programando meu primeiro robô: desafios para ensinar programação para crianças",
+        "Data": "2019-10-21",
+        "Horario": "20:30:00 às 21:30:00",
+        "Palestrante": "Prof. Júlio",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 2 sala 1 superior"
+    },
+    {
+        "Nome": "Didática disruptiva",
+        "Data": "2019-10-21",
+        "Horario": "20:30:00 às 21:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Necessidades de novas metodologias de ensino. Quais são elas",
+        "Data": "2019-10-21",
+        "Horario": "21:00:00 às 21:30:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Dicas de aparatos tecnológicos digitais",
+        "Data": "2019-10-21",
+        "Horario": "21:30:00 às 22:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "103",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "SINF: INTRODUÇÃO PROGRAMAÇÃO C#",
+        "Data": "2019-10-22",
+        "Horario": "07:50:00 às 11:30:00",
+        "Palestrante": "ANDRÉ BESSA",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "16",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "CHERNOBYL: Física Nuclear e Meio Ambiente",
+        "Data": "2019-10-22",
+        "Horario": "08:00:00 às 10:00:00",
+        "Palestrante": "Alda Maria Norbiato",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "50",
+        "Vagas Restantes": "18",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Biofísica: uma análise de como a vida e a natureza interagem",
+        "Data": "2019-10-22",
+        "Horario": "08:30:00 às 09:30:00",
+        "Palestrante": "Aluna Maria Julia Monteiro",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Bancada didática para visualização da transformação de fase do dióxido de carbono em fluido supercrítico",
+        "Data": "2019-10-22",
+        "Horario": "08:30:00 às 09:30:00",
+        "Palestrante": "Alunos Milena/ Hilton",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "46",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Re-pensando (com) tecnologia na educação: um estudo de caso",
+        "Data": "2019-10-22",
+        "Horario": "08:30:00 às 09:30:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "42",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "VIDROS SODO-CÁLCICOS NA CONSTRUÇÃO CIVIL: APLICAÇÕES COM BASE NAS NBR´S",
+        "Data": "2019-10-22",
+        "Horario": "09:30:00 às 10:30:00",
+        "Palestrante": "Eduarda Apareilocida - São Camilo",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "Bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Utilizaçâo de um experimento didático para contextualizar a relaçâo da história da quìmica com a agricultura e desenvolver o tema ciclo do nitrogênio",
+        "Data": "2019-10-22",
+        "Horario": "09:30:00 às 10:30:00",
+        "Palestrante": "Prof. Elisete",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "SINF: COLETANDO DADOS DA WEB COM PYTHON: UMA INTRODUÇÃO AO WEB SCRAPING",
+        "Data": "2019-10-22",
+        "Horario": "09:50:00 às 11:30:00",
+        "Palestrante": "Douglas Gusson, Fernando Bueno Dansi",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "15",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "Bicicleta Elétrica: Circuito PWM",
+        "Data": "2019-10-22",
+        "Horario": "10:30:00 às 11:00:00",
+        "Palestrante": "Aluno Diego D. /Prof. Gabriel A.",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "41",
+        "Local": "A definir"
+    },
+    {
+        "Nome": "Ciência Cotidiana",
+        "Data": "2019-10-22",
+        "Horario": "10:30:00 às 11:30:00",
+        "Palestrante": "Aluno Rafael Stefanato",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Uso de resíduo da atividade sucroalcooleira na produção de hortaliças sob diferentes intensidades de sombreamentos",
+        "Data": "2019-10-22",
+        "Horario": "10:30:00 às 11:00:00",
+        "Palestrante": "Aluno Pedro Afonso/ INCAPER",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "42",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Bicicleta Elétrica: Circuito de Proteção de Temperatura",
+        "Data": "2019-10-22",
+        "Horario": "11:00:00 às 11:30:00",
+        "Palestrante": "Aluna Gabriela L. /Prof. Gabriel A.",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "44",
+        "Local": "A definir"
+    },
+    {
+        "Nome": "Bicicleta Elétrica: Circuito de Proteção da Bateria",
+        "Data": "2019-10-22",
+        "Horario": "11:30:00 às 12:00:00",
+        "Palestrante": "Aluno Felipe de Paula /Prof. Gabriel A.",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "43",
+        "Local": "A definir"
+    },
+    {
+        "Nome": "O Principio do Direito Ambiental",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Maria Vitória Bedim Moreira dos Santos",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "93",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Construção de equipamentos simples e baratos para aquisição de dados ambientais, área foliar e aplicação no cultivo de hortaliças",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Aluno João Italo/ Prof. Fabielle",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "44",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "SINF: DOCKER FOR BEGINNERS",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 16:40:00",
+        "Palestrante": "EVERSON SCHERRER",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "7",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "Do subliminar ao visível: como se estruturam e se manifestam os processos de discriminação entre os sujeitos educativos no Ifes campus Cacheiro de Itapemirim - Percursos e aprendizados da Pesquisa",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 15:15:00",
+        "Palestrante": "Prof. Marcela/ Porf. Guilherme",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "50",
+        "Vagas Restantes": "23",
+        "Local": "Bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Banner Digital Re-pensando (com) tecnologia na educação: um estudo de caso",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Professor Guilherme",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Banner Digital Utilização de um experimento didático para contextualizar a relação da história da química com a agricultura e desenvolver o tema ciclo do nitrogênio",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Professora Elisete",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Lançamento do Livro Uma Ação Integradora e Transformadora: Experimento de Proposta Metodológica no Ensino Médio Integrado",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Roberto Carlos Farias de Oliveira",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Biblioteca"
+    },
+    {
+        "Nome": "Banner Digital Vulnerabilidade atual do solo a erosão hídrica do município de Cachoeiro de Itapemirim, ES",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Caio Fiorese - São Camilo",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 03 - Sala 1 Sup."
+    },
+    {
+        "Nome": "Minicurso Ambientes Tecnogênicos",
+        "Data": "2019-10-22",
+        "Horario": "13:00:00 às 16:00:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "O PRINCÍPIO DO DESENVOLVIMENTO SUSTENTÁVEL",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Victor R. Schiavo e Alef de A. Astolpho",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "89",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "O Conhecimento sobre a Biotecnologia na Agricultura do Brasil",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Aluna Lívia Guerson",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Banner Digital Ciência Cotidiana",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 14:30:00",
+        "Palestrante": "Rafael Stefano",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Mesa de Debate Do subliminar ao visível: como se estruturam e se manifestam os processos de discriminação entre os sujeitos educativos no ifes campus Cachoeiro de Itapemirim",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 14:30:00",
+        "Palestrante": "Prof. Marcela e Prof. Guilhemer",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Susceptibilidade natural à erosão hídrica das áreas de pastagem e cafeicultura do município de Muniz Freire (ES)",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Caio Fiorese - São Camilo",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 03 - Sala 1 Sup."
+    },
+    {
+        "Nome": "Qualificação do desgaste abrasivo amsler em chapas de granitos cinza andorinha com diferentes feições texturais",
+        "Data": "2019-10-22",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Alice e Prof. Ana Paula",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 03 - sala 2 sup."
+    },
+    {
+        "Nome": "Banner Digital Uso de resíduos da atividade sucroalcooleira na produção de hortaliças sob diferentes intensidades de sombreamentos",
+        "Data": "2019-10-22",
+        "Horario": "14:30:00 às 15:00:00",
+        "Palestrante": "Pedro Afonso/INCAPER",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "SINF: ANÁLISE E VISUALIZAÇÃO DE DADOS COM PYTHON",
+        "Data": "2019-10-22",
+        "Horario": "14:40:00 às 17:30:00",
+        "Palestrante": "ARTUR BERMOND",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "28",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "SEMMA: Meio Ambiente e Consumo consciente",
+        "Data": "2019-10-22",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Viriane Pigatti",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "80",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Da Origem ao Colapso do Universo",
+        "Data": "2019-10-22",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Aluno Davi Vieira",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "50",
+        "Vagas Restantes": "34",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Banner Digital Construção de eqipamentos simles e baratos para aquisição de dados ambientais, área foliar e aplicação no cultivo de hortaliças",
+        "Data": "2019-10-22",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "João Italo/Fabielle",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Minicurso Licenciamento Ambiental",
+        "Data": "2019-10-22",
+        "Horario": "15:00:00 às 18:00:00",
+        "Palestrante": "Renan Carvalho",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Bloco 03 - sala 1 sup."
+    },
+    {
+        "Nome": "Morfometria da Sub-Bacia Hidrográfica do Ribeirão Santo Amaro, Estado do Espírito Santo",
+        "Data": "2019-10-22",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Caio Fiorese - São Camilo",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 03 - sala 2 sup."
+    },
+    {
+        "Nome": "Banner Digital O Conhecimento sobre a Biotecnologia na Agricultura do Brasil",
+        "Data": "2019-10-22",
+        "Horario": "15:30:00 às 16:00:00",
+        "Palestrante": "Lívia Guerson",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "SINF: DESENVOLVENDO UM APLICATIVO: WEB SERVICE RESTFULL + ANDROID + INTERFACE",
+        "Data": "2019-10-22",
+        "Horario": "15:50:00 às 18:20:00",
+        "Palestrante": "Fernando Bueno Dansi, Douglas Gusson",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "14",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "Mostra Tecnológica Robótica com recicláveis",
+        "Data": "2019-10-22",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Prof. Juliétte Lima Gomes Moreira",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "33",
+        "Local": "Bloco 7 sala 1 sup"
+    },
+    {
+        "Nome": "Banner Digital Da Origem ao Colapso do Universo",
+        "Data": "2019-10-22",
+        "Horario": "16:00:00 às 16:30:00",
+        "Palestrante": "Davi Vieira",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Minicurso Segurança do Trabalho Aplicado à MIneração",
+        "Data": "2019-10-22",
+        "Horario": "16:00:00 às 18:40:00",
+        "Palestrante": "Roberto Reais",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "Palestra Veios Hidrotermais de Quartzo da Serra do Pasmar - DIamantina/MG",
+        "Data": "2019-10-22",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 05 - sala 1 sup"
+    },
+    {
+        "Nome": "Mesa de Debate CHERNOBYL: Física Nuclear e Meio Ambiente",
+        "Data": "2019-10-22",
+        "Horario": "16:30:00 às 17:00:00",
+        "Palestrante": "Alda Maria Norbiato",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Palestra Garimpo de Areinha, Diamatina - MG. Exposição dos Aspectos Sociais",
+        "Data": "2019-10-22",
+        "Horario": "16:30:00 às 17:20:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 5 - sala 1 sup"
+    },
+    {
+        "Nome": "Palestra Desenvovimento sustentável a diferenciação entre crescimento e desenvolvimento",
+        "Data": "2019-10-22",
+        "Horario": "16:45:00 às 16:45:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "98",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Politicas Públicas Ambientais em uma Análise no Município de Cachoeiro de Itapemirim",
+        "Data": "2019-10-22",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "97",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Bancada didática para visualização da transformação de fase do dióxido de carbono em fluido supercrítico",
+        "Data": "2019-10-22",
+        "Horario": "17:05:00 às 17:05:00",
+        "Palestrante": "lunos Milena/ Hilton",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Caracterização morfológica dos minerais de ouro e suas implicações nos mecanismos de deposição",
+        "Data": "2019-10-22",
+        "Horario": "17:20:00 às 18:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 5 - sala 1 sup"
+    },
+    {
+        "Nome": "Futsal Cursos de Graduação",
+        "Data": "2019-10-22",
+        "Horario": "17:30:00 às 20:30:00",
+        "Palestrante": "Alunos da Graduação",
+        "Categoria": "Torneio",
+        "Total de vagas": "100",
+        "Vagas Restantes": "91",
+        "Local": "Quadra"
+    },
+    {
+        "Nome": "O Licenciamento Ambiental Como Política pública e o Poder das Empresas",
+        "Data": "2019-10-22",
+        "Horario": "18:00:00 às 19:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "100",
+        "Vagas Restantes": "92",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Banner Digital A formação do Pedagogo do Futuro para um Mundo Tecnológico",
+        "Data": "2019-10-22",
+        "Horario": "18:00:00 às 18:30:00",
+        "Palestrante": "Dorcino - Campus Itapina",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Palestra Amostragem de minérios com uso de amostrador linear",
+        "Data": "2019-10-22",
+        "Horario": "18:00:00 às 19:30:00",
+        "Palestrante": "Prof. Eliseu",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Bloco 06 - sala 2 inf."
+    },
+    {
+        "Nome": "Minicurso de Inglês Técnico para Mineração",
+        "Data": "2019-10-22",
+        "Horario": "18:00:00 às 03:40:00",
+        "Palestrante": "??",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 06 - sala 1 inf"
+    },
+    {
+        "Nome": "Cubo Mágico: CUBIFES",
+        "Data": "2019-10-22",
+        "Horario": "18:30:00 às 21:00:00",
+        "Palestrante": "Prof. Elizeu",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "38",
+        "Local": "Bloco 2 sala 1 inferior"
+    },
+    {
+        "Nome": "SINF: MOSTRA PROJETOS 4 MÓDULO TÉCNICO INFORMÁTICA - PROJETO INTEGRADOR",
+        "Data": "2019-10-22",
+        "Horario": "18:30:00 às 22:00:00",
+        "Palestrante": "ALUNOS 4º MÓDULO",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "60",
+        "Vagas Restantes": "31",
+        "Local": "LABORATÓRIO 5"
+    },
+    {
+        "Nome": "Palestra Autonomia e aprendizagem: contribuições e desafios para uma prática educativa inovadora",
+        "Data": "2019-10-22",
+        "Horario": "18:30:00 às 19:30:00",
+        "Palestrante": "Elizangela Tonelli e Pollyana dos Santos",
+        "Categoria": "Palestra",
+        "Total de vagas": "105",
+        "Vagas Restantes": "97",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Minicurso Noções Básicas da NR11: Movimentação de Carga",
+        "Data": "2019-10-22",
+        "Horario": "18:40:00 às 21:30:00",
+        "Palestrante": "Murilo Agrizzi",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "20",
+        "Vagas Restantes": "18",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Prospecção MIneral de ouro na Serra do Pasma, distrito de Bandeirinha, DIamantina/MG",
+        "Data": "2019-10-22",
+        "Horario": "18:40:00 às 19:30:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 01 - sala 1 inf."
+    },
+    {
+        "Nome": "Palestra Reavaliação de Reserva em Rocha Ornamental",
+        "Data": "2019-10-22",
+        "Horario": "20:15:00 às 21:30:00",
+        "Palestrante": "Prof. Daniel Vale",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Bloco 06 - sala 2 inf."
+    },
+    {
+        "Nome": "Mostra científica: Como se formam os minérios",
+        "Data": "2019-10-22",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "Módulo 2",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 1 - sala 1 inf."
+    },
+    {
+        "Nome": "Palestra mineração e segurança do trabalho",
+        "Data": "2019-10-22",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "Prof. Roberto Reis",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "Xadrez Rápido",
+        "Data": "2019-10-22",
+        "Horario": "20:30:00 às 21:30:00",
+        "Palestrante": "Prof. Diego",
+        "Categoria": "Torneio",
+        "Total de vagas": "100",
+        "Vagas Restantes": "95",
+        "Local": "Laboratório 3"
+    },
+    {
+        "Nome": "Simulação Geopolítica da ONU: Tráfico humano",
+        "Data": "2019-10-23",
+        "Horario": "08:00:00 às 12:00:00",
+        "Palestrante": "Prof. Flávio Palhano",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "6",
+        "Local": "Biblioteca"
+    },
+    {
+        "Nome": "SINF: CONSTRUINDO UMA APLICAÇÃO WEB DO ZERO AO DEPLOY",
+        "Data": "2019-10-23",
+        "Horario": "08:00:00 às 12:30:00",
+        "Palestrante": "FERNANDO GARIOLI E FILIPE GASPAR",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "26",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "Oficina Álgebra de Boole e porta lógica utilizando Minecraft",
+        "Data": "2019-10-23",
+        "Horario": "08:30:00 às 09:30:00",
+        "Palestrante": "Prof. Eliseu",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "35",
+        "Local": "Laboratório inf. 5"
+    },
+    {
+        "Nome": "Oficina De funções lógicas a um projeto: Ligando um display de sete segmentos utilizando o Multisim",
+        "Data": "2019-10-23",
+        "Horario": "09:30:00 às 10:30:00",
+        "Palestrante": "Aluno João Victor Almeida",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "46",
+        "Local": "Laboratorio Inf 5"
+    },
+    {
+        "Nome": "SINF: DESENVOLVENDO UM APLICATIVO: WEB SERVICE RESTFULL + ANDROID + INTERFACE",
+        "Data": "2019-10-23",
+        "Horario": "09:50:00 às 11:30:00",
+        "Palestrante": "Fernando Bueno Dansi, Douglas Gusson",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "9",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "Etapas para elaboração de projeto de fim de curso (TCC)",
+        "Data": "2019-10-23",
+        "Horario": "10:00:00 às 12:00:00",
+        "Palestrante": "Prof. Fabiana/Lucas",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "50",
+        "Vagas Restantes": "39",
+        "Local": "Laboratório 5"
+    },
+    {
+        "Nome": "Oficina Apresentação do projeto e funcionamento de uma lixadeira de cinta",
+        "Data": "2019-10-23",
+        "Horario": "10:30:00 às 11:30:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Laboratório Inf 5"
+    },
+    {
+        "Nome": "Oficina Desmontagem e montagem completa de um motor de combustão interna",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "39",
+        "Local": "bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Empreendedorismo pra quem?",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Jacques Douglas Danzi (Olá Wolff)",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Oficina A construção coletiva da prática docente: no balanço da poesia, do canto e das canções",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Prof. DANIELA AGUIAR",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "SINF: MARATONA DE BANCO DE DADOS",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 15:30:00",
+        "Palestrante": "EROS MOURA",
+        "Categoria": "Torneio",
+        "Total de vagas": "30",
+        "Vagas Restantes": "27",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "O licenciamento Ambiental como Política Pública: Uma aálise do Setor de Mármore e Granito no Sul do Espírito Santo",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "35",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "O licenciamento ambiental como política pública: uma análise do setor de mármore e granito no sul do Espírito Santo",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 1 sup."
+    },
+    {
+        "Nome": "Desgaste abrasivo amsler de granito cinza andorinha com diferenças texturais: comparação entre os resultados obtidos a partir do relógio medidor e o uso de paquímetro",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 2 sup."
+    },
+    {
+        "Nome": "Mostra Química dos Minerais",
+        "Data": "2019-10-23",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Prof. Ana Paula",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Lab. Mineralogia e Rochas - Bl. 1 Sup."
+    },
+    {
+        "Nome": "Projeto e construção de um miniusina piloto para produção de biodiesel a partir do óleo de cozinha usado",
+        "Data": "2019-10-23",
+        "Horario": "13:30:00 às 14:30:00",
+        "Palestrante": "Aluna Thayane Silva",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "46",
+        "Local": "Bloco 2 sala 1 inferior"
+    },
+    {
+        "Nome": "SINF: ARDUINO BÁSICO",
+        "Data": "2019-10-23",
+        "Horario": "13:50:00 às 16:40:00",
+        "Palestrante": "JOANA ROZAES",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "20",
+        "Vagas Restantes": "8",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "A importância das incubadoras e das instituições de fomento: um relato de sucesso da empresa StonesPrice",
+        "Data": "2019-10-23",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Thales Lemos",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "A Implementação da Tecnologia no Processo de Licenciamento Ambiental",
+        "Data": "2019-10-23",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "A implementação da tecnologia no processo de licenciamento ambiental",
+        "Data": "2019-10-23",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 1 sup."
+    },
+    {
+        "Nome": "Banner Digital: Estabilidade de Taludes",
+        "Data": "2019-10-23",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Ludmilla",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "Minicurso Inclusões Fluidas - Teoria",
+        "Data": "2019-10-23",
+        "Horario": "14:00:00 às 17:00:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 5 - sala 1 sup."
+    },
+    {
+        "Nome": "SINF: INTRODUÇÃO PROGRAMAÇÃO C#",
+        "Data": "2019-10-23",
+        "Horario": "14:40:00 às 17:30:00",
+        "Palestrante": "ANDRÉ BESSA",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "13",
+        "Local": "LABORATÓRIO 2"
+    },
+    {
+        "Nome": "Oficina Apresentação do projeto e funcionamento de uma serra para tubos",
+        "Data": "2019-10-23",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "bloco 1 sala 1 inferior"
+    },
+    {
+        "Nome": "Mostra Tecnológica Bicicleta Elétrica: Características e Funcionamento",
+        "Data": "2019-10-23",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Aluno Ryan Luis/ Prof. Gabriel",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 Sala 1"
+    },
+    {
+        "Nome": "Caso da Samarco: Uma Análise do Termo de Transação e Ajustamento de Conduta e dos Programas Socioeconômicos e Socioambientais Desenvolvidos",
+        "Data": "2019-10-23",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "42",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Caso da Samarco: uma análise do termo de transação e ajustamento de conduta e dos programas socieconômicos e socioambiental desenvolvidos",
+        "Data": "2019-10-23",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Aluno Gabriel e Prof. Ana Paula",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 3 - Sala 1 sup."
+    },
+    {
+        "Nome": "Banner Digital Catalogação do acervo de minerais e rochas do Ifes Cachoeiro: descoberta de preciosidades",
+        "Data": "2019-10-23",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Gabriel e Prof. Ana Paula",
+        "Categoria": "Banner Digital",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "Racismo no Brasil e o mito da democracia racial",
+        "Data": "2019-10-23",
+        "Horario": "15:30:00 às 16:30:00",
+        "Palestrante": "Aluna Paola Correa",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "50",
+        "Vagas Restantes": "40",
+        "Local": "bloco 2 sala 1 inferior"
+    },
+    {
+        "Nome": "Mostra Tecnológica Placar Eletrônico com Arduíno",
+        "Data": "2019-10-23",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Aluno João Victor Lois",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 sala 1 inf"
+    },
+    {
+        "Nome": "A Utilização do Bioconcreto como Forma de Desenvolvimento Sustentável",
+        "Data": "2019-10-23",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Palestra Explosivo na mineração",
+        "Data": "2019-10-23",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Prof. Gleicon",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "A utilização do bioconcreto como forma de desenvolvimento sustentável",
+        "Data": "2019-10-23",
+        "Horario": "16:30:00 às 17:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 1 sup."
+    },
+    {
+        "Nome": "Bicicleta Elétrica: Circuito de Proteção de Corrente",
+        "Data": "2019-10-23",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "Maria Victoria/ Prof. Celso",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "47",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Espaços de fronteira e a fragmentação territorial- possibilidades de conexão. Um estudo de caso no bairro Lagoinha- Belo Horizonte/MG",
+        "Data": "2019-10-23",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "Rayane Monteiro",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "48",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "A construção do Sentimento Ambiental Brasileiro a partir do Novo Constitucionalismo Latino Americano",
+        "Data": "2019-10-23",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "Victor Rizo",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "Bloco 1 sala 3 inferior"
+    },
+    {
+        "Nome": "Bicicleta Elétrica: Circuito de Proteção de COrrente",
+        "Data": "2019-10-23",
+        "Horario": "17:00:00 às 17:30:00",
+        "Palestrante": "Maria Victoria/Prof. Celso",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "50",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Mostra Tecnológica contador GEIGER-MULLER a partir da plataforma arduino",
+        "Data": "2019-10-23",
+        "Horario": "17:30:00 às 18:00:00",
+        "Palestrante": "Kevin Depolli",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "49",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Mostra Tecnológica Biodiesel de Soja - Reação de transesterificação",
+        "Data": "2019-10-23",
+        "Horario": "18:00:00 às 18:30:00",
+        "Palestrante": "Alana Neves",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "50",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Minicurso Polimento de Chapas de Rocha Ornamental",
+        "Data": "2019-10-23",
+        "Horario": "18:00:00 às 21:30:00",
+        "Palestrante": "??",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Bloco 3 - sala 2 sup."
+    },
+    {
+        "Nome": "Torneio Futsal Cursos de Graduação (quadra)",
+        "Data": "2019-10-23",
+        "Horario": "18:30:00 às 22:00:00",
+        "Palestrante": "Alunos",
+        "Categoria": "Torneio",
+        "Total de vagas": "100",
+        "Vagas Restantes": "84",
+        "Local": "Quadra"
+    },
+    {
+        "Nome": "Mesa de debate - a formação do pedagogo do futuro para um mundo tecnológico",
+        "Data": "2019-10-23",
+        "Horario": "18:30:00 às 20:10:00",
+        "Palestrante": "Dorcino Roella Filho e Amanda Saubert Bl",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "105",
+        "Vagas Restantes": "99",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Mostra de Manutenção elétrica com 4 transformadores e 10 motores elétricos recuperados",
+        "Data": "2019-10-23",
+        "Horario": "18:40:00 às 21:00:00",
+        "Palestrante": "Prof. Nilson",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "33",
+        "Local": "laboratório 8"
+    },
+    {
+        "Nome": "Palestra Explosivos na mineração",
+        "Data": "2019-10-23",
+        "Horario": "18:40:00 às 19:30:00",
+        "Palestrante": "Prof. Gleicon",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 6 - sala 1 inf."
+    },
+    {
+        "Nome": "Inovação e Tecnologias aplicadas a exploração de rochas ornamentais",
+        "Data": "2019-10-23",
+        "Horario": "18:40:00 às 19:30:00",
+        "Palestrante": "Prof. Arthur Motta",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 6 - sala 2 inf."
+    },
+    {
+        "Nome": "SINF: INTRODUÇÃO PROGRAMAÇÃO C#",
+        "Data": "2019-10-23",
+        "Horario": "19:00:00 às 21:30:00",
+        "Palestrante": "ANDRÉ BESSA",
+        "Categoria": "Palestra",
+        "Total de vagas": "30",
+        "Vagas Restantes": "22",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "SINF: ANÁLISE E VISUALIZAÇÃO DE DADOS COM PYTHON",
+        "Data": "2019-10-23",
+        "Horario": "19:00:00 às 21:30:00",
+        "Palestrante": "ARTUR BERMOND",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "13",
+        "Local": "LABORATÓRIO 3"
+    },
+    {
+        "Nome": "SINF:  USO DO GITLAB: USANDO O CONTROLE DE VERSÃO EM PROJETOS WEB",
+        "Data": "2019-10-23",
+        "Horario": "19:00:00 às 21:30:00",
+        "Palestrante": "RENATO BOTACIM",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "30",
+        "Vagas Restantes": "14",
+        "Local": "LABORATÓRIO 7"
+    },
+    {
+        "Nome": "Mostra Química dos Minerais",
+        "Data": "2019-10-23",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "Prof. Gleicon",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 1 sup."
+    },
+    {
+        "Nome": "Uso de Drones na Mineração",
+        "Data": "2019-10-23",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "Reinaldo Baldotto e Arthur Motta",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 6 - sala 2 inf."
+    },
+    {
+        "Nome": "Formação inicial do licenciando em matemática e aproximações com a escola: relatos de experiências no estágio supervisionado",
+        "Data": "2019-10-23",
+        "Horario": "20:20:00 às 22:00:00",
+        "Palestrante": "Grupo de professores",
+        "Categoria": "Oficina",
+        "Total de vagas": "105",
+        "Vagas Restantes": "98",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Cine Debate: “Eu, Daniel Blake”,",
+        "Data": "2019-10-24",
+        "Horario": "08:00:00 às 10:30:00",
+        "Palestrante": "Prof. Marcela",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "19",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Feira de Ciências",
+        "Data": "2019-10-24",
+        "Horario": "08:00:00 às 18:00:00",
+        "Palestrante": "Alunos Ifes/Campus Cachoeiro de Itep.",
+        "Categoria": "Mostra",
+        "Total de vagas": "150",
+        "Vagas Restantes": "147",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Oficina de Expressão Criativa: Jogos teatrais para estudantes",
+        "Data": "2019-10-24",
+        "Horario": "10:30:00 às 11:30:00",
+        "Palestrante": "Prof. Roberto Carlos",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "30",
+        "Local": "Bloco 6 sala 2 inferior"
+    },
+    {
+        "Nome": "Conhecendo o curso de Engenharia de Minas do IFES",
+        "Data": "2019-10-24",
+        "Horario": "11:00:00 às 12:00:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "29",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Mostra Tecnológica: Verificação dos materiiais em uma ponte de macarrão e suas implicações",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "105",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Feira Ciências",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Prof. Fabielle",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "97",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Mostra Tecnológica: Verificação dos materiiais em uma ponte de macarrão e suas implicações",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "Prof. Gustavo",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "106",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Projeto Filosófico Musical: NUM CAFÉ EXISTENCIALISTA COM NIETZSCHE SARTRE, CAMUS & H. GESSINGER",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 15:30:00",
+        "Palestrante": "Prof. Schayder",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "110",
+        "Vagas Restantes": "64",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Canhão das Pedras Explosivas",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluno Caio Malini Bolognini",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "101",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Remoção de microplásticos da água",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluno",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "101",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Motor Elétrico feito com Imã",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluna Leticia Rodrigues Babinsck",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "105",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Espelho Infinito",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluna Maria Eduarda Muniz",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "106",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Utilização do Arduino como incentivo nas aulas de física: Aplicação prática da lei de ohm",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluno Marlon Rafael J. V. dos Santos",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "108",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Canhão eletromagnético",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluno Davi Pereira",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "106",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Gaiola Faraday",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluno Adson Alves Mendonça",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "105",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Motor Elétrico",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluna Tainá de Lacerda",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "104",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Painel Solar de LED's",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluna Gabrielle Alves Silva",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "106",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Bateria de Latinhas de Alumínio",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 17:00:00",
+        "Palestrante": "Aluna Bruna Teixeira",
+        "Categoria": "Mostra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "106",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Minicurso Inclusões Fluidas - Prática",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 16:00:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 1 - sala 1 inf."
+    },
+    {
+        "Nome": "Minicurso Principais aspectos técnicos avaliados no \"Requerimento de Lavra\", associados à projetos de rocha ornamental no Espírito Santo",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 16:00:00",
+        "Palestrante": "Rafael Valiate",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Amostrador linear automático de minérios",
+        "Data": "2019-10-24",
+        "Horario": "13:00:00 às 15:00:00",
+        "Palestrante": "??",
+        "Categoria": "Oficina",
+        "Total de vagas": "150",
+        "Vagas Restantes": "149",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Lançamento do Livro: Uma Ação Integradora e Transformadora: Experimento de Proposta Metodológica no Ensino Médio Integrado",
+        "Data": "2019-10-24",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Prof. Roberto Carlos",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "35",
+        "Vagas Restantes": "31",
+        "Local": "Biblioteca"
+    },
+    {
+        "Nome": "Exposiçaõ de Arte: I Salão de Artes Visuais do campus Cachoeiro de Itapemirim",
+        "Data": "2019-10-24",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "Prof. Roberto Carlos",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "35",
+        "Vagas Restantes": "24",
+        "Local": "Bibliteca"
+    },
+    {
+        "Nome": "A química dos minerais",
+        "Data": "2019-10-24",
+        "Horario": "15:00:00 às 17:00:00",
+        "Palestrante": "Ana Paula",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Lab. Mineralogia - bloco 1 sup."
+    },
+    {
+        "Nome": "Minicurso cmoo evitar patologias de rochas ornamentais através do ensaio de manchamento",
+        "Data": "2019-10-24",
+        "Horario": "15:00:00 às 17:00:00",
+        "Palestrante": "Evanizis",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "15",
+        "Vagas Restantes": "15",
+        "Local": "Lab. Caracterização - bloco 4 inf."
+    },
+    {
+        "Nome": "Conhecendo o curso de Sistemas de Informação do IFES",
+        "Data": "2019-10-24",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "Diversos",
+        "Categoria": "Palestra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "44",
+        "Local": "Bloco 6 sala 1 inferior"
+    },
+    {
+        "Nome": "Loteamentos Córrego do Prata ao São Tomé na cidade de Diamantina",
+        "Data": "2019-10-24",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 1 inf."
+    },
+    {
+        "Nome": "Palestra Geologia e bolsa de valores",
+        "Data": "2019-10-24",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 1 inf."
+    },
+    {
+        "Nome": "Mesa de debate Mineração e meio ambiente: reflexões sobre o caso Brumadinho e Mariana",
+        "Data": "2019-10-24",
+        "Horario": "18:00:00 às 21:30:00",
+        "Palestrante": "Mediador Prof. Eliseu",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "110",
+        "Vagas Restantes": "107",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Palestra Lavra de Rochas Ornamentais",
+        "Data": "2019-10-24",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Interclasse Integrado",
+        "Data": "2019-10-25",
+        "Horario": "08:00:00 às 16:00:00",
+        "Palestrante": "Prof. Márcio",
+        "Categoria": "Torneio",
+        "Total de vagas": "150",
+        "Vagas Restantes": "129",
+        "Local": "Quadra"
+    },
+    {
+        "Nome": "Interclasse Integrado",
+        "Data": "2019-10-25",
+        "Horario": "08:00:00 às 11:30:00",
+        "Palestrante": "Prof. Márcio",
+        "Categoria": "Torneio",
+        "Total de vagas": "150",
+        "Vagas Restantes": "144",
+        "Local": "Quadra Esportiva"
+    },
+    {
+        "Nome": "Expressão Criativa: Jogos teatrais",
+        "Data": "2019-10-25",
+        "Horario": "09:00:00 às 11:00:00",
+        "Palestrante": "Roberto",
+        "Categoria": "Oficina",
+        "Total de vagas": "30",
+        "Vagas Restantes": "22",
+        "Local": "Bloco 6 sala 2 inf"
+    },
+    {
+        "Nome": "Oficina Apresentação do projeto e funcionamento de uma serra para tubos",
+        "Data": "2019-10-25",
+        "Horario": "09:00:00 às 09:30:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 09 - inf."
+    },
+    {
+        "Nome": "Exposição de Arte: I Salão de Artes Visuais do Campus Cachoeiro de Itapemirim",
+        "Data": "2019-10-25",
+        "Horario": "09:00:00 às 09:30:00",
+        "Palestrante": "Prof. Roberto Carlos",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "40",
+        "Vagas Restantes": "37",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Oficina desmontagem e montagem completa de um motor de combustão interna",
+        "Data": "2019-10-25",
+        "Horario": "11:00:00 às 11:30:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Oficina de Funções Lógicas a um projeto: Ligando um display de sete segmentos utilizando o Mutisim",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "João Victor Almeida",
+        "Categoria": "Oficina",
+        "Total de vagas": "50",
+        "Vagas Restantes": "50",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Mesa de Debate Corpos no tubo: território das subjetividades na literatura",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Prof. Guilherme",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Minicurso Domótica: Princípio da automação residencial utilizando sensor ultrasônico e arduino",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Arthur Bermond",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Mostra Científica: Como se formam os Minérios",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 13:30:00",
+        "Palestrante": "Prof. Ana Paula",
+        "Categoria": "Mostra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Significado da presença de ouro da Serra do Espinhaço Meridional",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 14:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "A química dos minerais",
+        "Data": "2019-10-25",
+        "Horario": "13:00:00 às 16:00:00",
+        "Palestrante": "Prof. Ana Paula",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Lab. Mineralogia e Rochas - Bl. 1 Sup."
+    },
+    {
+        "Nome": "Apresentação Musical The Pace of Life",
+        "Data": "2019-10-25",
+        "Horario": "13:30:00 às 14:00:00",
+        "Palestrante": "Prof. Cláudia",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "150",
+        "Vagas Restantes": "139",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "incubadora do Ifes - Empreendedorismo, Inovação e Tecnologia",
+        "Data": "2019-10-25",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "Leandro e Edgar",
+        "Categoria": "Mesa Redonda",
+        "Total de vagas": "50",
+        "Vagas Restantes": "45",
+        "Local": "bloco 1 sala 1 inf"
+    },
+    {
+        "Nome": "Oficina Álgebra de Boole e porta lógica utilizando Minecraft",
+        "Data": "2019-10-25",
+        "Horario": "14:00:00 às 14:30:00",
+        "Palestrante": "Prof. Eliseu",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Caracterização do ouro da Serra do Pasmar - Diamantina/MG",
+        "Data": "2019-10-25",
+        "Horario": "14:00:00 às 15:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Apresentação Musical We Are Here",
+        "Data": "2019-10-25",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Prof. Cláudia",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "150",
+        "Vagas Restantes": "134",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Minicurso - Etapas para elaboração de projeto de fim de curso (TCC)",
+        "Data": "2019-10-25",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Prof. Fabiana/Lucas",
+        "Categoria": "Mini-Curso",
+        "Total de vagas": "40",
+        "Vagas Restantes": "38",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Oficina Apresentação do projeto e funcionamento de uma lixadeira de cinta",
+        "Data": "2019-10-25",
+        "Horario": "15:00:00 às 15:30:00",
+        "Palestrante": "Prof. Marcelo Chagas",
+        "Categoria": "Oficina",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Local à definir"
+    },
+    {
+        "Nome": "Estudo de inclusões fluidas e caracterização dos veios de quartzo do distrito aurífero de Diamantina/MG",
+        "Data": "2019-10-25",
+        "Horario": "15:00:00 às 16:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "39",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Produção de vídeos: King Lear e Mecbeth",
+        "Data": "2019-10-25",
+        "Horario": "16:00:00 às 16:30:00",
+        "Palestrante": "Prof. Cláudia",
+        "Categoria": "Apresentação Cultural",
+        "Total de vagas": "150",
+        "Vagas Restantes": "139",
+        "Local": "Auditório"
+    },
+    {
+        "Nome": "Torneio Xadrez Relâmpago",
+        "Data": "2019-10-25",
+        "Horario": "16:00:00 às 18:00:00",
+        "Palestrante": "Prof. Diego",
+        "Categoria": "Torneio",
+        "Total de vagas": "30",
+        "Vagas Restantes": "27",
+        "Local": "Lab inf. Lab 3 bloco 2 sup"
+    },
+    {
+        "Nome": "Torneio Xadrez Relâmpago",
+        "Data": "2019-10-25",
+        "Horario": "16:00:00 às 17:30:00",
+        "Palestrante": "Prof. Diego",
+        "Categoria": "Torneio",
+        "Total de vagas": "150",
+        "Vagas Restantes": "150",
+        "Local": "Pátio"
+    },
+    {
+        "Nome": "Estudo de inclusões fluidas nos veios de quartzo da Serra do Pasmar - Diamantina/MG",
+        "Data": "2019-10-25",
+        "Horario": "16:00:00 às 17:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Ouro na Serra dos Pasmar, distrito de Bandeirinha, Diamantina/MG",
+        "Data": "2019-10-25",
+        "Horario": "17:00:00 às 18:00:00",
+        "Palestrante": "??",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 1 - sala 3 inf."
+    },
+    {
+        "Nome": "Palestra Recuperação de área degrada por garimpo",
+        "Data": "2019-10-25",
+        "Horario": "18:00:00 às 20:20:00",
+        "Palestrante": "Marcelo Henrique",
+        "Categoria": "Palestra",
+        "Total de vagas": "40",
+        "Vagas Restantes": "40",
+        "Local": "Bloco 3 - sala 2 sup"
+    },
+    {
+        "Nome": "Apresentação trabalhos curso técnico - Panorama econômico do mercado de rochas ornamentais e mineração 4.0",
+        "Data": "2019-10-25",
+        "Horario": "18:00:00 às 20:20:00",
+        "Palestrante": "Curso Técnico",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "109",
+        "Local": "Auitório"
+    },
+    {
+        "Nome": "Apresentação Trabalhos Pós-graduação em Ensino de Ciências Naturais",
+        "Data": "2019-10-25",
+        "Horario": "18:30:00 às 22:00:00",
+        "Palestrante": "Prof. Edmundo",
+        "Categoria": "Mostra",
+        "Total de vagas": "50",
+        "Vagas Restantes": "40",
+        "Local": "local a definir"
+    },
+    {
+        "Nome": "Palestra Aspectos da legalização de atividades da mineração",
+        "Data": "2019-10-25",
+        "Horario": "20:20:00 às 21:30:00",
+        "Palestrante": "Prof. Marcônio",
+        "Categoria": "Palestra",
+        "Total de vagas": "110",
+        "Vagas Restantes": "109",
+        "Local": "Auditório"
+    }
+]
