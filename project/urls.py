@@ -19,7 +19,7 @@ from app import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r'palestras', views.PaletraViewSet)
+router.register(r'palestras', views.PalestraViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -2,7 +2,7 @@ from rest_framework import serializers
 from app.models import Palestra
 
 
-class PaletraSerializer(serializers.HyperlinkedModelSerializer):
+class PalestraSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Palestra
         fields = ['id',
